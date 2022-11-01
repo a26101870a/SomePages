@@ -1,0 +1,64 @@
+* {
+    margin: 0px auto;
+    text-align: center;
+}
+
+body {
+    background: url(background.jpg);
+    background-size: 100% auto;
+    cursor: default;
+}
+
+#box {
+    width: 650px;
+    height: 320px;
+    background-color: #00000050;
+    margin-top: 250px;
+}
+
+#box>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 90px;
+    color: white;
+}
+
+#box>div>input {
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff00;
+    border: 0px;
+    border-bottom: 3px white solid;
+    margin-bottom: 17px;
+    outline: none;
+    text-align: initial;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+}
+
+#box>div>input:-webkit-input-placeholder {
+    color: white;
+}
+
+#box>div>img {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#box>div:last-child {
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 17px;
+    margin-top: 10px;
+    line-height: 32px;
+    background: linear-gradient(to right, #066cf0 0%, #578bc3 100%);
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box>div:last-child:hover {
+    background: linear-gradient(to right, #066cf0 0%, #578bc3 100%);
+}
