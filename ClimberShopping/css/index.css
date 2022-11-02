@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 110px;
+}
+
+.logo {
+    float: left;
+    width: 110px;
+    height: 110px;
+    background: url(../img/logo.png);
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right ul {
+    height: 44px;
+    margin-top: 10px;
+    line-height: 44px;
+}
+
+.header-right li {
+    float: left;
+}
+
+.header-right li a {
+    padding: 0 1rem;
+    border-right: 1px solid green;
+    color: #666;
+    font-size: 1rem;
+}
+
+.header-right li a:hover {
+    color: #158415;
+}
+
+.header-right .last {
+    padding-right: 0;
+    border: none;
+}
+
+.header-right .active {
+    color: #000900;
+}
+
+.search {
+    float: right;
+    width: auto;
+    height: 28px;
+    margin: 0 1rem;
+    border: 1px solid #eee;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search .left {
+    float: left;
+    width: 196px;
+    height: 28px;
+    padding-left: 1rem;
+}
+
+.search .right {
+    float: right;
+    width: 24px;
+    height: 28px;
+    background: url(../img/search.png) no-repeat left center;
+}
+
+.nav {
+    height: 53px;
+    line-height: 53px;
+    border-top: 1px solid greenyellow;
+    background: forestgreen;
+    color: white;
+}
+
+.nav li {
+    float: left;
+    font-size: 1rem;
+    margin-right: 4rem;
+}
+
+.banner {
+    height: 341px;
+    background: url(../img/banner.jpg) no-repeat center;
+}
+
+.list {
+    height: 213px;
+    margin-top: 51px;
+    margin-bottom: 35px;
+}
+
+.item {
+    float: left;
+    height: 211px;
+    width: 305px;
+    margin-right: 19px;
+    border: 1px solid #ccc;
+}
+
+.item p {
+    height: 47px;
+    line-height: 47px;
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+.item img {
+    display: block;
+}
+
+.itemlast {
+    margin-right: 0;
+}
+
+.footer {
+    height: 206px;
+    border-top: 1px solid #ccc;
+    background: #eee;
+}
+
+.footer ul {
+    height: 84px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    line-height: 28px;
+}
+
+.footer ul li {
+    float: left;
+    width: 210px;
+    padding-left: 30px;
+    font-size: 0.25rem;
+    color: rgb(27, 99, 255);
+}
+
+.footer p {
+    height: 61px;
+    line-height: 61px;
+    padding-left: 30px;
+    font-size: 0.25rem;
+    color: #666;
+}
