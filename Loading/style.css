@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #34495e;
+    background-color: #333;
 
     font-family: "montserrat", sans-serif;
 }
@@ -20,7 +20,7 @@ body {
     border-top: 10px solid red;
     border-radius: 50%;
 
-    animation: rotate1 2s linear infinite;
+    animation: spinning1 2s linear infinite;
 }
 
 .loading::before,
@@ -57,16 +57,16 @@ body {
     text-align: center;
     line-height: 200px;
 
-    animation: rotate2 2s linear infinite;
+    animation: spinning2 2s linear infinite;
 }
 
-@keyframes rotate1 {
+@keyframes spinning1 {
     to {
         transform: rotate(360deg);
     }
 }
 
-@keyframes rotate2 {
+@keyframes spinning2 {
     to {
         transform: rotate(-360deg);
     }
